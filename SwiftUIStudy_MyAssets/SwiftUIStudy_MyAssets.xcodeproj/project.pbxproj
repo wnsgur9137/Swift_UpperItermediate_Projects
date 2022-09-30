@@ -24,6 +24,14 @@
 		66476B8528E294FD00EA4349 /* SwiftUIStudy_MyAssetsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66476B8428E294FD00EA4349 /* SwiftUIStudy_MyAssetsTests.swift */; };
 		66476B8F28E294FD00EA4349 /* SwiftUIStudy_MyAssetsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66476B8E28E294FD00EA4349 /* SwiftUIStudy_MyAssetsUITests.swift */; };
 		66476B9128E294FD00EA4349 /* SwiftUIStudy_MyAssetsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66476B9028E294FD00EA4349 /* SwiftUIStudy_MyAssetsUITestsLaunchTests.swift */; };
+		6654436828E679E4000E8C8B /* assets.json in Resources */ = {isa = PBXBuildFile; fileRef = 6654436728E679E4000E8C8B /* assets.json */; };
+		6654436A28E679F6000E8C8B /* Asset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6654436928E679F6000E8C8B /* Asset.swift */; };
+		6654436C28E67ACC000E8C8B /* AssetSummaryData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6654436B28E67ACC000E8C8B /* AssetSummaryData.swift */; };
+		6654436E28E67FF5000E8C8B /* AssetSectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6654436D28E67FF5000E8C8B /* AssetSectionHeaderView.swift */; };
+		6654437028E681F3000E8C8B /* AssetSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6654436F28E681F3000E8C8B /* AssetSectionView.swift */; };
+		6654437228E68354000E8C8B /* AssetSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6654437128E68353000E8C8B /* AssetSummaryView.swift */; };
+		6654437528E6A701000E8C8B /* TabMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6654437428E6A701000E8C8B /* TabMenuView.swift */; };
+		6654437728E6A9BA000E8C8B /* AssetCardSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6654437628E6A9BA000E8C8B /* AssetCardSectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +72,14 @@
 		66476B8A28E294FD00EA4349 /* SwiftUIStudy_MyAssetsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIStudy_MyAssetsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		66476B8E28E294FD00EA4349 /* SwiftUIStudy_MyAssetsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIStudy_MyAssetsUITests.swift; sourceTree = "<group>"; };
 		66476B9028E294FD00EA4349 /* SwiftUIStudy_MyAssetsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIStudy_MyAssetsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6654436728E679E4000E8C8B /* assets.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = assets.json; sourceTree = "<group>"; };
+		6654436928E679F6000E8C8B /* Asset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asset.swift; sourceTree = "<group>"; };
+		6654436B28E67ACC000E8C8B /* AssetSummaryData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetSummaryData.swift; sourceTree = "<group>"; };
+		6654436D28E67FF5000E8C8B /* AssetSectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetSectionHeaderView.swift; sourceTree = "<group>"; };
+		6654436F28E681F3000E8C8B /* AssetSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetSectionView.swift; sourceTree = "<group>"; };
+		6654437128E68353000E8C8B /* AssetSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetSummaryView.swift; sourceTree = "<group>"; };
+		6654437428E6A701000E8C8B /* TabMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabMenuView.swift; sourceTree = "<group>"; };
+		6654437628E6A9BA000E8C8B /* AssetCardSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetCardSectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,9 +153,12 @@
 		66476B7228E294FC00EA4349 /* SwiftUIStudy_MyAssets */ = {
 			isa = PBXGroup;
 			children = (
+				6654436728E679E4000E8C8B /* assets.json */,
 				66476B7328E294FC00EA4349 /* SwiftUIStudy_MyAssetsApp.swift */,
 				66476B7528E294FC00EA4349 /* ContentView.swift */,
 				6640EC4D28E3DD08009CBEAB /* NavigationBarWithButton.swift */,
+				6654436928E679F6000E8C8B /* Asset.swift */,
+				6654437328E68405000E8C8B /* AssetSummary */,
 				6640EC5C28E3FC57009CBEAB /* AssetBanner */,
 				6640EC5128E3E129009CBEAB /* AssetMenu */,
 				66476B7728E294FD00EA4349 /* Assets.xcassets */,
@@ -171,6 +190,19 @@
 				66476B9028E294FD00EA4349 /* SwiftUIStudy_MyAssetsUITestsLaunchTests.swift */,
 			);
 			path = SwiftUIStudy_MyAssetsUITests;
+			sourceTree = "<group>";
+		};
+		6654437328E68405000E8C8B /* AssetSummary */ = {
+			isa = PBXGroup;
+			children = (
+				6654436B28E67ACC000E8C8B /* AssetSummaryData.swift */,
+				6654436D28E67FF5000E8C8B /* AssetSectionHeaderView.swift */,
+				6654436F28E681F3000E8C8B /* AssetSectionView.swift */,
+				6654437128E68353000E8C8B /* AssetSummaryView.swift */,
+				6654437428E6A701000E8C8B /* TabMenuView.swift */,
+				6654437628E6A9BA000E8C8B /* AssetCardSectionView.swift */,
+			);
+			path = AssetSummary;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,6 +309,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6654436828E679E4000E8C8B /* assets.json in Resources */,
 				66476B7B28E294FD00EA4349 /* Preview Assets.xcassets in Resources */,
 				66476B7828E294FD00EA4349 /* Assets.xcassets in Resources */,
 			);
@@ -304,16 +337,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				6640EC5028E3E11F009CBEAB /* AssetMenuGridView.swift in Sources */,
+				6654437028E681F3000E8C8B /* AssetSectionView.swift in Sources */,
+				6654436A28E679F6000E8C8B /* Asset.swift in Sources */,
 				6640EC5928E3FA0B009CBEAB /* PageViewController.swift in Sources */,
+				6654436C28E67ACC000E8C8B /* AssetSummaryData.swift in Sources */,
+				6654436E28E67FF5000E8C8B /* AssetSectionHeaderView.swift in Sources */,
 				66476B7628E294FC00EA4349 /* ContentView.swift in Sources */,
 				6640EC5528E3E309009CBEAB /* AssetBanner.swift in Sources */,
 				6640EC5328E3E1E0009CBEAB /* AssetView.swift in Sources */,
 				6640EC4E28E3DD08009CBEAB /* NavigationBarWithButton.swift in Sources */,
 				6640EC4A28E3DA0C009CBEAB /* AssetMenu.swift in Sources */,
+				6654437528E6A701000E8C8B /* TabMenuView.swift in Sources */,
 				66476B7428E294FC00EA4349 /* SwiftUIStudy_MyAssetsApp.swift in Sources */,
 				6640EC5B28E3FC4D009CBEAB /* PageControl.swift in Sources */,
 				6640EC5E28E4075D009CBEAB /* AssetBannerView.swift in Sources */,
 				6640EC5728E3F862009CBEAB /* BannerCard.swift in Sources */,
+				6654437728E6A9BA000E8C8B /* AssetCardSectionView.swift in Sources */,
+				6654437228E68354000E8C8B /* AssetSummaryView.swift in Sources */,
 				6640EC4C28E3DB5A009CBEAB /* AssetMenuButtonStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
