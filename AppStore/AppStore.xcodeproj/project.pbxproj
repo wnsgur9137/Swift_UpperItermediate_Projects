@@ -20,6 +20,14 @@
 		66CA69E928E6B59000C9F8AD /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CA69E828E6B59000C9F8AD /* TodayViewController.swift */; };
 		66CA69EB28E6B8E700C9F8AD /* TodayCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CA69EA28E6B8E700C9F8AD /* TodayCollectionViewCell.swift */; };
 		66CA69ED28E6C38600C9F8AD /* TodayCollectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CA69EC28E6C38600C9F8AD /* TodayCollectionHeaderView.swift */; };
+		66CA69EF28EABB0E00C9F8AD /* AppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CA69EE28EABB0E00C9F8AD /* AppViewController.swift */; };
+		66CA69F228EABFA200C9F8AD /* FeatureSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CA69F128EABFA200C9F8AD /* FeatureSectionView.swift */; };
+		66CA69F428EAC6A400C9F8AD /* FeatureSectionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CA69F328EAC6A400C9F8AD /* FeatureSectionCollectionViewCell.swift */; };
+		66CA69F628EACBD600C9F8AD /* SeparatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CA69F528EACBD600C9F8AD /* SeparatorView.swift */; };
+		66CA69F828EACD3600C9F8AD /* RankingFeatureSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CA69F728EACD3600C9F8AD /* RankingFeatureSectionView.swift */; };
+		66CA69FA28EAD41100C9F8AD /* RankingFeatureCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CA69F928EAD41100C9F8AD /* RankingFeatureCollectionViewCell.swift */; };
+		66CA69FC28EAD88000C9F8AD /* ExchangeCodeButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CA69FB28EAD88000C9F8AD /* ExchangeCodeButtonView.swift */; };
+		66CA69FE28EADB9700C9F8AD /* AppDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CA69FD28EADB9700C9F8AD /* AppDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +63,14 @@
 		66CA69E828E6B59000C9F8AD /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
 		66CA69EA28E6B8E700C9F8AD /* TodayCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayCollectionViewCell.swift; sourceTree = "<group>"; };
 		66CA69EC28E6C38600C9F8AD /* TodayCollectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayCollectionHeaderView.swift; sourceTree = "<group>"; };
+		66CA69EE28EABB0E00C9F8AD /* AppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewController.swift; sourceTree = "<group>"; };
+		66CA69F128EABFA200C9F8AD /* FeatureSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureSectionView.swift; sourceTree = "<group>"; };
+		66CA69F328EAC6A400C9F8AD /* FeatureSectionCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureSectionCollectionViewCell.swift; sourceTree = "<group>"; };
+		66CA69F528EACBD600C9F8AD /* SeparatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeparatorView.swift; sourceTree = "<group>"; };
+		66CA69F728EACD3600C9F8AD /* RankingFeatureSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingFeatureSectionView.swift; sourceTree = "<group>"; };
+		66CA69F928EAD41100C9F8AD /* RankingFeatureCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingFeatureCollectionViewCell.swift; sourceTree = "<group>"; };
+		66CA69FB28EAD88000C9F8AD /* ExchangeCodeButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeCodeButtonView.swift; sourceTree = "<group>"; };
+		66CA69FD28EADB9700C9F8AD /* AppDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,8 +153,10 @@
 		66CA69E628E6B57200C9F8AD /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				66CA69F028EABB1600C9F8AD /* App */,
 				66CA69E728E6B57B00C9F8AD /* Today */,
 				66CA69B428E6AF8500C9F8AD /* TabBarController.swift */,
+				66CA69FD28EADB9700C9F8AD /* AppDetailViewController.swift */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -151,6 +169,20 @@
 				66CA69EC28E6C38600C9F8AD /* TodayCollectionHeaderView.swift */,
 			);
 			path = Today;
+			sourceTree = "<group>";
+		};
+		66CA69F028EABB1600C9F8AD /* App */ = {
+			isa = PBXGroup;
+			children = (
+				66CA69EE28EABB0E00C9F8AD /* AppViewController.swift */,
+				66CA69FB28EAD88000C9F8AD /* ExchangeCodeButtonView.swift */,
+				66CA69F128EABFA200C9F8AD /* FeatureSectionView.swift */,
+				66CA69F328EAC6A400C9F8AD /* FeatureSectionCollectionViewCell.swift */,
+				66CA69F528EACBD600C9F8AD /* SeparatorView.swift */,
+				66CA69F728EACD3600C9F8AD /* RankingFeatureSectionView.swift */,
+				66CA69F928EAD41100C9F8AD /* RankingFeatureCollectionViewCell.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,10 +325,18 @@
 			files = (
 				66CA69E928E6B59000C9F8AD /* TodayViewController.swift in Sources */,
 				66CA69B528E6AF8500C9F8AD /* TabBarController.swift in Sources */,
+				66CA69FC28EAD88000C9F8AD /* ExchangeCodeButtonView.swift in Sources */,
+				66CA69F628EACBD600C9F8AD /* SeparatorView.swift in Sources */,
 				66CA69B128E6AF8500C9F8AD /* AppDelegate.swift in Sources */,
 				66CA69ED28E6C38600C9F8AD /* TodayCollectionHeaderView.swift in Sources */,
+				66CA69F428EAC6A400C9F8AD /* FeatureSectionCollectionViewCell.swift in Sources */,
+				66CA69EF28EABB0E00C9F8AD /* AppViewController.swift in Sources */,
 				66CA69B328E6AF8500C9F8AD /* SceneDelegate.swift in Sources */,
 				66CA69EB28E6B8E700C9F8AD /* TodayCollectionViewCell.swift in Sources */,
+				66CA69F228EABFA200C9F8AD /* FeatureSectionView.swift in Sources */,
+				66CA69FE28EADB9700C9F8AD /* AppDetailViewController.swift in Sources */,
+				66CA69FA28EAD41100C9F8AD /* RankingFeatureCollectionViewCell.swift in Sources */,
+				66CA69F828EACD3600C9F8AD /* RankingFeatureSectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
