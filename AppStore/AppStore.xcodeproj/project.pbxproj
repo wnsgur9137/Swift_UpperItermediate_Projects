@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		662458EF28EB3DC100B3A6B9 /* Feature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662458EE28EB3DC100B3A6B9 /* Feature.swift */; };
+		662458F128EB3E3400B3A6B9 /* RankingFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662458F028EB3E3400B3A6B9 /* RankingFeature.swift */; };
 		66CA69B128E6AF8500C9F8AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CA69B028E6AF8500C9F8AD /* AppDelegate.swift */; };
 		66CA69B328E6AF8500C9F8AD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CA69B228E6AF8500C9F8AD /* SceneDelegate.swift */; };
 		66CA69B528E6AF8500C9F8AD /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CA69B428E6AF8500C9F8AD /* TabBarController.swift */; };
@@ -28,6 +30,10 @@
 		66CA69FA28EAD41100C9F8AD /* RankingFeatureCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CA69F928EAD41100C9F8AD /* RankingFeatureCollectionViewCell.swift */; };
 		66CA69FC28EAD88000C9F8AD /* ExchangeCodeButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CA69FB28EAD88000C9F8AD /* ExchangeCodeButtonView.swift */; };
 		66CA69FE28EADB9700C9F8AD /* AppDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CA69FD28EADB9700C9F8AD /* AppDetailViewController.swift */; };
+		66CA6A0228EB3B7F00C9F8AD /* RankingFeature.plist in Resources */ = {isa = PBXBuildFile; fileRef = 66CA69FF28EB3B7F00C9F8AD /* RankingFeature.plist */; };
+		66CA6A0328EB3B7F00C9F8AD /* Feature.plist in Resources */ = {isa = PBXBuildFile; fileRef = 66CA6A0028EB3B7F00C9F8AD /* Feature.plist */; };
+		66CA6A0428EB3B7F00C9F8AD /* Today.plist in Resources */ = {isa = PBXBuildFile; fileRef = 66CA6A0128EB3B7F00C9F8AD /* Today.plist */; };
+		66CA6A0728EB3C1800C9F8AD /* Today.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CA6A0628EB3C1800C9F8AD /* Today.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +54,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		662458EE28EB3DC100B3A6B9 /* Feature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feature.swift; sourceTree = "<group>"; };
+		662458F028EB3E3400B3A6B9 /* RankingFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingFeature.swift; sourceTree = "<group>"; };
 		66CA69AD28E6AF8500C9F8AD /* AppStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66CA69B028E6AF8500C9F8AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		66CA69B228E6AF8500C9F8AD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -71,6 +79,10 @@
 		66CA69F928EAD41100C9F8AD /* RankingFeatureCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingFeatureCollectionViewCell.swift; sourceTree = "<group>"; };
 		66CA69FB28EAD88000C9F8AD /* ExchangeCodeButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeCodeButtonView.swift; sourceTree = "<group>"; };
 		66CA69FD28EADB9700C9F8AD /* AppDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDetailViewController.swift; sourceTree = "<group>"; };
+		66CA69FF28EB3B7F00C9F8AD /* RankingFeature.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = RankingFeature.plist; sourceTree = "<group>"; };
+		66CA6A0028EB3B7F00C9F8AD /* Feature.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Feature.plist; sourceTree = "<group>"; };
+		66CA6A0128EB3B7F00C9F8AD /* Today.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Today.plist; sourceTree = "<group>"; };
+		66CA6A0628EB3C1800C9F8AD /* Today.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Today.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +137,10 @@
 			children = (
 				66CA69B028E6AF8500C9F8AD /* AppDelegate.swift */,
 				66CA69B228E6AF8500C9F8AD /* SceneDelegate.swift */,
+				66CA6A0628EB3C1800C9F8AD /* Today.swift */,
+				662458EE28EB3DC100B3A6B9 /* Feature.swift */,
+				662458F028EB3E3400B3A6B9 /* RankingFeature.swift */,
+				66CA6A0528EB3B8200C9F8AD /* Data */,
 				66CA69E628E6B57200C9F8AD /* Scenes */,
 				66CA69B928E6AF8500C9F8AD /* Assets.xcassets */,
 				66CA69BB28E6AF8500C9F8AD /* LaunchScreen.storyboard */,
@@ -183,6 +199,16 @@
 				66CA69F928EAD41100C9F8AD /* RankingFeatureCollectionViewCell.swift */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		66CA6A0528EB3B8200C9F8AD /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				66CA6A0028EB3B7F00C9F8AD /* Feature.plist */,
+				66CA69FF28EB3B7F00C9F8AD /* RankingFeature.plist */,
+				66CA6A0128EB3B7F00C9F8AD /* Today.plist */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -297,8 +323,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66CA6A0228EB3B7F00C9F8AD /* RankingFeature.plist in Resources */,
+				66CA6A0428EB3B7F00C9F8AD /* Today.plist in Resources */,
 				66CA69BD28E6AF8500C9F8AD /* LaunchScreen.storyboard in Resources */,
 				66CA69BA28E6AF8500C9F8AD /* Assets.xcassets in Resources */,
+				66CA6A0328EB3B7F00C9F8AD /* Feature.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,8 +353,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				66CA69E928E6B59000C9F8AD /* TodayViewController.swift in Sources */,
+				66CA6A0728EB3C1800C9F8AD /* Today.swift in Sources */,
 				66CA69B528E6AF8500C9F8AD /* TabBarController.swift in Sources */,
 				66CA69FC28EAD88000C9F8AD /* ExchangeCodeButtonView.swift in Sources */,
+				662458F128EB3E3400B3A6B9 /* RankingFeature.swift in Sources */,
+				662458EF28EB3DC100B3A6B9 /* Feature.swift in Sources */,
 				66CA69F628EACBD600C9F8AD /* SeparatorView.swift in Sources */,
 				66CA69B128E6AF8500C9F8AD /* AppDelegate.swift in Sources */,
 				66CA69ED28E6C38600C9F8AD /* TodayCollectionHeaderView.swift in Sources */,
