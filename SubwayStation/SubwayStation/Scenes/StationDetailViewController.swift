@@ -11,6 +11,7 @@ import Alamofire
 
 final class StationDetailViewController: UIViewController {
     private let station: Station
+    private var realTimeArrivalList: [StationArrivalDatResponseModel.RealTimeArrival] = []
     
     private lazy var refreshControl: UIRefreshControl = {
         let refreshControl = UIRefreshControl()
@@ -59,14 +60,16 @@ final class StationDetailViewController: UIViewController {
     @objc private func fetchData() {
 //        refreshControl.endRefreshing()
         
-        let stationName = "서울역"
+        let stationName = station.stationName
         let urlString = "http://swopenapi.seoul.go.kr/api/subway/sample/xml/realtimeStationArrival/0/5/\(stationName.replacingOccurrences(of: "역", with: ""))"
         
         AF.request(urlString.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? "")
             .responseDecodable(of: StationArrivalDatResponseModel.self) { [weak self] response in
                 self?.refreshControl.endRefreshing()
                 guard case .success(let data) = response.result else { return }
-                print(data.realtimeArrivalList)
+                
+                self?.realTimeArrivalList = data.realtimeArrivalList
+                self?.collectionView.reloadData()
             }
             .resume()
     }
@@ -74,13 +77,14 @@ final class StationDetailViewController: UIViewController {
 
 extension StationDetailViewController: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 3
+        return realTimeArrivalList.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "StationDetailCollectionViewCell", for: indexPath) as? StationDetailCollectionViewCell
         
-        cell?.setup()
+        let realTimeArrival = realTimeArrivalList[indexPath.row]
+        cell?.setup(with: realTimeArrival)
         
         return cell ?? UICollectionViewCell()
     }
