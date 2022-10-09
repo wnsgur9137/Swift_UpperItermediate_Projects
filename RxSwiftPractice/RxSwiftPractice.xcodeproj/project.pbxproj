@@ -44,6 +44,7 @@
 		660BC10B28F1ED2E00B8924B /* Traits.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Traits.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		660BC10C28F1F5AF00B8924B /* Subject.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Subject.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		660BC10D28F1FAA300B8924B /* FilteringOperator.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FilteringOperator.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		660BC10E28F340C700B8924B /* TransformingOperators.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TransformingOperators.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		664E094628F1993900C39AE8 /* RxSwiftPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwiftPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		664E094928F1993900C39AE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		664E094B28F1993900C39AE8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -115,6 +116,7 @@
 				660BC10B28F1ED2E00B8924B /* Traits.playground */,
 				660BC10C28F1F5AF00B8924B /* Subject.playground */,
 				660BC10D28F1FAA300B8924B /* FilteringOperator.playground */,
+				660BC10E28F340C700B8924B /* TransformingOperators.playground */,
 				664E094828F1993900C39AE8 /* RxSwiftPractice */,
 				664E095F28F1993A00C39AE8 /* RxSwiftPracticeTests */,
 				664E096928F1993A00C39AE8 /* RxSwiftPracticeUITests */,
