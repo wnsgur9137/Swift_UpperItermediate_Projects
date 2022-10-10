@@ -58,6 +58,7 @@
 		664E096628F1993A00C39AE8 /* RxSwiftPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxSwiftPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		664E096A28F1993A00C39AE8 /* RxSwiftPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftPracticeUITests.swift; sourceTree = "<group>"; };
 		664E096C28F1993A00C39AE8 /* RxSwiftPracticeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftPracticeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		66BCD6CB28F486D900A0A929 /* CombiningOperators.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CombiningOperators.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		66F88F4FC4CE31F148C07AD4 /* Pods-RxSwiftPracticeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftPracticeTests.debug.xcconfig"; path = "Target Support Files/Pods-RxSwiftPracticeTests/Pods-RxSwiftPracticeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6CA15B658263278C42BA8BE2 /* Pods_RxSwiftPractice_RxSwiftPracticeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftPractice_RxSwiftPracticeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A380CDFC9D00548AE083F295 /* Pods_RxSwiftPracticeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftPracticeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -117,6 +118,7 @@
 				660BC10C28F1F5AF00B8924B /* Subject.playground */,
 				660BC10D28F1FAA300B8924B /* FilteringOperator.playground */,
 				660BC10E28F340C700B8924B /* TransformingOperators.playground */,
+				66BCD6CB28F486D900A0A929 /* CombiningOperators.playground */,
 				664E094828F1993900C39AE8 /* RxSwiftPractice */,
 				664E095F28F1993A00C39AE8 /* RxSwiftPracticeTests */,
 				664E096928F1993A00C39AE8 /* RxSwiftPracticeUITests */,
