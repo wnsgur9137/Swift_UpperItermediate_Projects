@@ -15,13 +15,13 @@ final class FilterView: UITableViewHeaderFooterView {
     
     private lazy var sortButton: UIButton = {
         let sortButton = UIButton()
-        
+
         return sortButton
     }()
-    
+
     private lazy var bottomBorder: UIView = {
         let bottomBorder = UIView()
-        
+
         return bottomBorder
     }()
     

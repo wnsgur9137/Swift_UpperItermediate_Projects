@@ -54,6 +54,6 @@ private extension BlogListView {
         self.register(BlogListCell.self, forCellReuseIdentifier: "BlogListCell")
         self.separatorStyle = .singleLine
         self.rowHeight = 100
-        self.tableFooterView = headerView
+        self.tableHeaderView = headerView
     }
 }

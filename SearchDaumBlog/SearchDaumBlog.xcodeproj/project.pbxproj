@@ -23,6 +23,9 @@
 		660E85F128F5D6E000425446 /* BlogListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660E85F028F5D6E000425446 /* BlogListCell.swift */; };
 		660E85F328F5D6EB00425446 /* BlogListCellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660E85F228F5D6EB00425446 /* BlogListCellData.swift */; };
 		660E85FC28F5DD8A00425446 /* AlertActionConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660E85FB28F5DD8A00425446 /* AlertActionConvertible.swift */; };
+		664C50DF28F7212200755C1B /* DKBlog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664C50DE28F7212200755C1B /* DKBlog.swift */; };
+		664C50E128F7236B00755C1B /* SearchBlogAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664C50E028F7236B00755C1B /* SearchBlogAPI.swift */; };
+		664C50E428F723FD00755C1B /* SearchBlogNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664C50E328F723FD00755C1B /* SearchBlogNetwork.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +42,9 @@
 		660E85F028F5D6E000425446 /* BlogListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogListCell.swift; sourceTree = "<group>"; };
 		660E85F228F5D6EB00425446 /* BlogListCellData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogListCellData.swift; sourceTree = "<group>"; };
 		660E85FB28F5DD8A00425446 /* AlertActionConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertActionConvertible.swift; sourceTree = "<group>"; };
+		664C50DE28F7212200755C1B /* DKBlog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DKBlog.swift; sourceTree = "<group>"; };
+		664C50E028F7236B00755C1B /* SearchBlogAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBlogAPI.swift; sourceTree = "<group>"; };
+		664C50E328F723FD00755C1B /* SearchBlogNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBlogNetwork.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,7 @@
 				660E85C728F5D03D00425446 /* AppDelegate.swift */,
 				660E85C928F5D03D00425446 /* SceneDelegate.swift */,
 				660E85F428F5D70700425446 /* Entities */,
+				664C50E228F7236F00755C1B /* Network */,
 				660E85F528F5D71500425446 /* Presentation */,
 				660E85D028F5D03E00425446 /* Assets.xcassets */,
 				660E85D228F5D03E00425446 /* LaunchScreen.storyboard */,
@@ -92,6 +99,7 @@
 			children = (
 				660E85F228F5D6EB00425446 /* BlogListCellData.swift */,
 				660E85FB28F5DD8A00425446 /* AlertActionConvertible.swift */,
+				664C50DE28F7212200755C1B /* DKBlog.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -146,6 +154,15 @@
 				660E85F028F5D6E000425446 /* BlogListCell.swift */,
 			);
 			path = SubComponents;
+			sourceTree = "<group>";
+		};
+		664C50E228F7236F00755C1B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				664C50E028F7236B00755C1B /* SearchBlogAPI.swift */,
+				664C50E328F723FD00755C1B /* SearchBlogNetwork.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,12 +249,15 @@
 			files = (
 				660E85E928F5D18700425446 /* MainViewController.swift in Sources */,
 				660E85F128F5D6E000425446 /* BlogListCell.swift in Sources */,
+				664C50DF28F7212200755C1B /* DKBlog.swift in Sources */,
 				660E85EF28F5D6CF00425446 /* BlogList.swift in Sources */,
+				664C50E128F7236B00755C1B /* SearchBlogAPI.swift in Sources */,
 				660E85F328F5D6EB00425446 /* BlogListCellData.swift in Sources */,
 				660E85EB28F5D28600425446 /* SearchBar.swift in Sources */,
 				660E85C828F5D03D00425446 /* AppDelegate.swift in Sources */,
 				660E85ED28F5D58300425446 /* FilterView.swift in Sources */,
 				660E85CA28F5D03D00425446 /* SceneDelegate.swift in Sources */,
+				664C50E428F723FD00755C1B /* SearchBlogNetwork.swift in Sources */,
 				660E85FC28F5DD8A00425446 /* AlertActionConvertible.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
