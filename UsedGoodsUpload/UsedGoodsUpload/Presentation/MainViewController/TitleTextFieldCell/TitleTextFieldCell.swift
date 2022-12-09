@@ -13,7 +13,7 @@ import RxCocoa
 final class TitleTextFieldCell: UITableViewCell {
     let disposeBag = DisposeBag()
     
-    private lazy var titleInputField: UITextField = {
+    lazy var titleInputField: UITextField = {
         let textField = UITextField()
         textField.font = .systemFont(ofSize: 17.0)
         return textField

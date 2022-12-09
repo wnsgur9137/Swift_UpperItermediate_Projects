@@ -9,26 +9,36 @@ import UIKit
 import SnapKit
 
 class MainViewController: UIViewController {
+    
+    var playerView: PlayerView? = nil
+    var viewModel: PlayerViewModel? = nil
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.attribute()
+        self.setLayout()
+    }
+}
+
+extension MainViewController {
+    
+    func attribute() {
         let birthday = Date(timeIntervalSinceNow: (-2 * 86400 * 6000))
         let image = UIImage(systemName: "person")!
         let son = Player(name: "Son", birthday: birthday, position: .striker, image: image)
         
-        let playerView = PlayerView()
+        self.playerView = PlayerView()
         
         let viewModel = PlayerViewModel(player: son)
-        viewModel.configure(playerView)
-        
-        self.view.addSubview(playerView)
-        playerView.translatesAutoresizingMaskIntoConstraints = false
-        playerView.snp.makeConstraints {
+        viewModel.configure(playerView!)
+    }
+    
+    func setLayout() {
+        self.view.addSubview(playerView!)
+        playerView!.translatesAutoresizingMaskIntoConstraints = false
+        playerView!.snp.makeConstraints {
             $0.edges.equalToSuperview()
         }
     }
-
-
 }
-
